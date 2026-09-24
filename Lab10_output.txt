@@ -1,0 +1,193 @@
+$ python3 lab-10/Lab10_visa_proforma.py
+FIN 43900 | Lab 10 | Visa (V) | annual teaching model
+Discount anchor: 2025-09-30; research date: 2026-09-24
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+pretax                              28,247.9     32,287.0     36,537.8     40,925.7     45,395.9
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET (current/noncurrent incentive and debt balances combined)
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOW (unrestricted cash; frozen restricted balances)
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+
+CHECK BLOCK (each accounting gap must be zero)
+FY2026E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2027E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2028E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2029E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2030E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+All accounting and financing checks PASS.
+explicit_pv: $111,658.39 million
+terminal_fcfe: $37,345.93 million
+terminal_pv: $404,538.24 million
+surplus_cash: $12,164.00 million
+equity: $528,360.63 million
+Terminal share of equity value: 76.56%
+Fixed opening as-converted shares: 1,930 million
+Value per share: $273.76
+Annual-model value, not a September 2026 spot valuation. See report for dated market comparison.
+
+Exit code: 0
+
+$ python3 lab-10/Lab10_visa_proforma.py --break-2026-cash
+FIN 43900 | Lab 10 | Visa (V) | annual teaching model
+Discount anchor: 2025-09-30; research date: 2026-09-24
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+pretax                              28,247.9     32,287.0     36,537.8     40,925.7     45,395.9
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET (current/noncurrent incentive and debt balances combined)
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                17,164.0     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOW (unrestricted cash; frozen restricted balances)
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+cash                                17,164.0     29,346.6     36,585.8     44,648.5     53,554.3
+
+CHECK BLOCK (each accounting gap must be zero)
+FY2026E: BS gap=-5723.533023; cash bridge=-5723.533023; cash floor=True; revolver=0.0
+FY2027E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2028E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2029E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+FY2030E: BS gap=0.000000; cash bridge=0.000000; cash floor=True; revolver=0.0
+VALUATION REFUSED: FY2026E: balance-sheet gap: -5,723.533023 million
+
+Exit code: 1
+
+$ python3 lab-10/Lab10_test_visa_proforma.py
+test_balancing_two_accounts_cannot_hide_broken_cash_bridge (__main__.ModelChecks.test_balancing_two_accounts_cannot_hide_broken_cash_bridge) ... ok
+test_base_and_source_opening_balance (__main__.ModelChecks.test_base_and_source_opening_balance) ... ok
+test_cli_refusal_prints_no_value_and_changes_no_inputs (__main__.ModelChecks.test_cli_refusal_prints_no_value_and_changes_no_inputs) ... ok
+test_expired_revolver_cannot_be_carried_forward (__main__.ModelChecks.test_expired_revolver_cannot_be_carried_forward) ... ok
+test_incentive_pressure_reduces_value (__main__.ModelChecks.test_incentive_pressure_reduces_value) ... ok
+test_invalid_terminal_rate (__main__.ModelChecks.test_invalid_terminal_rate) ... ok
+test_negative_terminal_cash_flow_refuses (__main__.ModelChecks.test_negative_terminal_cash_flow_refuses) ... ok
+test_revolver_draw_repayment_and_expiry (__main__.ModelChecks.test_revolver_draw_repayment_and_expiry) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.143s
+
+OK
+
+Exit code: 0
