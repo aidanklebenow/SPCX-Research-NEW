@@ -1,0 +1,55 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "scope": "legacy snapshots only; not fresh-environment cold run or integrated FCFF validation",
+  "results": [
+    {
+      "check": "lab10_tests",
+      "passed": true,
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "script_sha256": "93a5ded0f6145334c52fb4fec53540177511539796d079c2db41ca4d8d638bd3",
+      "utc": "2026-10-06T21:13:50.838949+00:00"
+    },
+    {
+      "check": "lab11_tests",
+      "passed": true,
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "script_sha256": "f8d65b3315e0ffc7f9f48dce1b3727e8abd9e8e58bbdba3e5cf0f508f7ed068d",
+      "utc": "2026-10-06T21:13:51.184270+00:00"
+    },
+    {
+      "check": "abg_known_answer",
+      "passed": true,
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "script_sha256": "8e8551218f8f8e1c667bcdfefb34be48696b7507853bfc4b422264ed1e50047d",
+      "utc": "2026-10-06T21:13:51.591693+00:00"
+    },
+    {
+      "check": "abg_broken_cash",
+      "passed": true,
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "script_sha256": "8e8551218f8f8e1c667bcdfefb34be48696b7507853bfc4b422264ed1e50047d",
+      "utc": "2026-10-06T21:13:51.696776+00:00"
+    },
+    {
+      "check": "visa_broken_cash",
+      "passed": true,
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "script_sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f",
+      "utc": "2026-10-06T21:13:51.822285+00:00"
+    },
+    {
+      "check": "earlier_fcff",
+      "passed": true,
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "script_sha256": "2ef1173609b673da046d5423b3dd294b4fd6dea8412b3a281c67d6753fd61189",
+      "utc": "2026-10-06T21:13:51.915693+00:00"
+    }
+  ]
+}

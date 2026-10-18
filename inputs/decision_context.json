@@ -1,0 +1,15 @@
+{
+  "status": "draft; Aidan decisions pending",
+  "recommended_target": "Visa",
+  "ticker": "V",
+  "exchange": "NYSE",
+  "investment_user": "buy-side portfolio manager; fund has no target position",
+  "decision_horizon": null,
+  "valuation_date": null,
+  "information_cutoff": null,
+  "currency": "USD",
+  "amount_units": "millions",
+  "share_basis": null,
+  "target_confirmation": null,
+  "exclusions_policy": "pending: restricted escrow/collateral, operating cash, debt-like claims and share conversions"
+}

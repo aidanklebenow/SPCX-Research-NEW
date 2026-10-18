@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-06",
+  "scope": "repository scaffold and audited legacy evidence; integrated valuation pending",
+  "legacy_source_and_copy_hashes_verified": 45,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "00256b4fddd74373bd31f7726469936deee31f171515a2e0e1b2364a5c543223"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "sha256": "f93aeccb41e7180876451cf63527d2d4419fda9409ddd7cd856e146dd76dbe61"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9a0e4b1e71fbedd8e9ce39c509c384869e5b048646d779eaaa85e45fe8d2531c"
+    },
+    {
+      "path": "checkpoints/edition-a/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "checkpoints/edition-b/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/processed/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "deliverables/transcripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "inputs/assumption_challenges.csv",
+      "sha256": "d6f1e593475b444758f04b8696609caa1e9e947e0e03348704d0e8cda655dd9c"
+    },
+    {
+      "path": "inputs/decision_context.json",
+      "sha256": "60f50307278af39f4e39ac76482522abeb78701e5c4ec68d3f10e938cdb1a33c"
+    },
+    {
+      "path": "inputs/peer_policy.md",
+      "sha256": "5986a5b0c1432c359f2e3c8d90c75da6e48b4ab8e5cf0e100acace18b0f93ad7"
+    },
+    {
+      "path": "inputs/source_register.csv",
+      "sha256": "7a815dfc98a6d2c96e5ff4f4c0dfb5039a340f61a2c9e7d9d6bbae466d67629b"
+    },
+    {
+      "path": "legacy/Visa/README.md",
+      "sha256": "575fcf4847295c249d6d98747b253e06eeaeea5c29d2c74d541500770ed74e37"
+    },
+    {
+      "path": "legacy/Visa/earlier-research/Visa_2026-09-10_Investment_Report.md",
+      "sha256": "bedd5c9c85199ff23d67337f5d95baceb02f087b07dd6e97e8eb30de214867d3"
+    },
+    {
+      "path": "legacy/Visa/earlier-research/Visa_DCF_Methodology.md",
+      "sha256": "3928ca6e578cbab463f71ce7f2afa4e2f78bd6f4733ce7ba76f1d676f54b1052"
+    },
+    {
+      "path": "legacy/Visa/earlier-research/Visa_Research_Sources.md",
+      "sha256": "b8507ff4a59f1a449497186ac4280b2d9787c0170b16cc8fde9128f283c1707d"
+    },
+    {
+      "path": "legacy/Visa/earlier-research/visa_dcf.py",
+      "sha256": "2ef1173609b673da046d5423b3dd294b4fd6dea8412b3a281c67d6753fd61189"
+    },
+    {
+      "path": "legacy/Visa/earlier-research/visa_inputs.json",
+      "sha256": "c30e20d8c83029600b0a9cef8d2d3a3841d2d7b3c882ba43aca72014313942b0"
+    },
+    {
+      "path": "legacy/Visa/lab-06/Visa_Reverse_DCF.md",
+      "sha256": "b80c080929dbd23510ffc64fb667dfa63cacebbe182eaa509fd8afa7b81917b7"
+    },
+    {
+      "path": "legacy/Visa/lab-06/dcf.py",
+      "sha256": "84f284e5c89f80a63fcdc4180ef31bd1ec29b32d94c514cc1718adfafbf4389c"
+    },
+    {
+      "path": "legacy/Visa/lab-07/lab07_asbury_pe_analysis.py",
+      "sha256": "fdef1124d039cdf9815c91ec6c745c7d7eaad37ce10bab142c38220e8f310f31"
+    },
+    {
+      "path": "legacy/Visa/lab-07/lab07_comparable_company_analysis.py",
+      "sha256": "253b742c95a8104a5ca689433b0d16181c2b08d9b1a111ef1618f6a908e1bbff"
+    },
+    {
+      "path": "legacy/Visa/lab-07/lab07_summary.md",
+      "sha256": "97032d5d73fc45fa43c7fe39e66395d274f97b5349ca3f13f73485fd5ea2bc59"
+    },
+    {
+      "path": "legacy/Visa/lab-08/lab08_visa_triangulation.md",
+      "sha256": "7512cc7892aeb6a7a77d1c75b1ec09567d2d2e2bf6bde0af51bf38eb3ff737b3"
+    },
+    {
+      "path": "legacy/Visa/lab-08/lab08_visa_triangulation.py",
+      "sha256": "25aca0daffd481ac2879c44722806f43dee5b417fac45e0e68653febd0b97477"
+    },
+    {
+      "path": "legacy/Visa/lab-09/lab09_output.txt",
+      "sha256": "135950e3f0778f5428c0de8f62af661e2608e03402cbe789977d11209409e21c"
+    },
+    {
+      "path": "legacy/Visa/lab-09/lab09_summary.md",
+      "sha256": "11ad266c3e3513eae381de1ba8d6c1dc330ba533bfa9bea94da8d60bab9e79b7"
+    },
+    {
+      "path": "legacy/Visa/lab-09/proforma.py",
+      "sha256": "8e8551218f8f8e1c667bcdfefb34be48696b7507853bfc4b422264ed1e50047d"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_README.md",
+      "sha256": "d03b5f56e73830ccfabf38d4ea6d98d9a2946e67b07afba1a63128360191e8d5"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_history_and_sources.md",
+      "sha256": "bb76ebdcb5e92dd6ccf3ef1abaf731dcda5633e8ca1bbc7b1d0d0410139c77f8"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_output.txt",
+      "sha256": "2d6b8d46cda393f570befea611f360ca31a92c9de54de2e4a208e03b7d0edfa9"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_summary.md",
+      "sha256": "627c6ddaa5ff94d3837502da016e9ac1c3b128ec8f2c8353d5fad5fa2c420906"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_test_visa_proforma.py",
+      "sha256": "93a5ded0f6145334c52fb4fec53540177511539796d079c2db41ca4d8d638bd3"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_visa_inputs.json",
+      "sha256": "dc158e21fd7ec98d0e3ed1f1db76fa629bebf29e0faad4eda5bde78f7f775ba4"
+    },
+    {
+      "path": "legacy/Visa/lab-10/Lab10_visa_proforma.py",
+      "sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f"
+    },
+    {
+      "path": "legacy/Visa/lab-10/sources/Lab10_market_observation.json",
+      "sha256": "3e75f60e1750579c778a71291e4ff8ce861ad44ec994397df40005eaba6e9d7d"
+    },
+    {
+      "path": "legacy/Visa/lab-10/sources/Lab10_sources_README.md",
+      "sha256": "4e4da735b3099c09fad1e025eb89cc637ff2ed5af8b7e1e6374efee8583980f5"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_AI_prediction.json",
+      "sha256": "8fe030e2e02342232d033b3b20afb5ae639e9075a21f5b1d158aa099c660a158"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_AI_prediction.md",
+      "sha256": "5fca9333b923867143d6e43f76ca4ace66c5a59f8b644c5595c4bdb63b62e267"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_Gemini_handoff.md",
+      "sha256": "c7cca2d4f27154af8b19ad2f76c4e4210ee6fad7540a4907b2133303d26d485a"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_base_assumptions.md",
+      "sha256": "8a6f22602028a5c9939b3a748deee211fb59cddaba81e85b53a40e29f3a0e2d3"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_base_inputs.json",
+      "sha256": "dc158e21fd7ec98d0e3ed1f1db76fa629bebf29e0faad4eda5bde78f7f775ba4"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_base_output.txt",
+      "sha256": "da98ac9ea295fad7a9eabc2d5a49a7301ceae1c38e588f9ab94b28c0a5ef6041"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_engine.py",
+      "sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_output.txt",
+      "sha256": "951fd83598a27bc4039826816d1956ac3932bd360aeaf4452c1f1d1dc0d957ca"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_prediction.md",
+      "sha256": "552f7d7ddfdefa08afe132a25be324e55f20df5b45bf2e5a8ac140393cb0fe1d"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_ranges.json",
+      "sha256": "dbdebc989b8127c82d2568726100a2b2de5f9e64837e9f646b066bd436994c8e"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_results.json",
+      "sha256": "1efef41c6a3779415172b8d703399dc11d04d74f75f8fbb05bb8602dd16e6222"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_sensitivity.py",
+      "sha256": "22ced82f885c4a8de6a26e1711b29c246a795ce88dce5f937f3fce3bc68e5e59"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_start.md",
+      "sha256": "781a1b71618bb52f67626e62edf50ed7023f83861637f43302be475f56261cb6"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_summary.md",
+      "sha256": "4283272a6d55c794a6c5193877be1059f4a6f24b2f97b198dbce076816e3a8b1"
+    },
+    {
+      "path": "legacy/Visa/lab-11/Lab11_test_sensitivity.py",
+      "sha256": "f8d65b3315e0ffc7f9f48dce1b3727e8abd9e8e58bbdba3e5cf0f508f7ed068d"
+    },
+    {
+      "path": "legacy/Visa/lab-11/submission/Lab11_output.txt",
+      "sha256": "951fd83598a27bc4039826816d1956ac3932bd360aeaf4452c1f1d1dc0d957ca"
+    },
+    {
+      "path": "legacy/Visa/lab-11/submission/Lab11_prediction.md",
+      "sha256": "552f7d7ddfdefa08afe132a25be324e55f20df5b45bf2e5a8ac140393cb0fe1d"
+    },
+    {
+      "path": "legacy/Visa/lab-11/submission/Lab11_summary.md",
+      "sha256": "4283272a6d55c794a6c5193877be1059f4a6f24b2f97b198dbce076816e3a8b1"
+    },
+    {
+      "path": "legacy/Visa/lab-12/Lab12_review.md",
+      "sha256": "d673a1a6fc31199f829cb5784b8384ddc7fa62d0eb9c414384697b477fd2c7bd"
+    },
+    {
+      "path": "legacy/Visa/lab-12/UPLOAD_GUIDE.md",
+      "sha256": "96aae6139cdc1cfbfc8a1b43f3761f96ee3b4483405f68e7fcaf64ebb4e97cd1"
+    },
+    {
+      "path": "legacy/manifest.json",
+      "sha256": "3549623c0c1fc468e0dc6f116de2e0109eb613a30964937d54bdfd4ae4b492f1"
+    },
+    {
+      "path": "outputs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/compliance_audit.md",
+      "sha256": "65483946d4ebd3470dee19717d1a0a2cd374a8bfbae9845b254b7ca89118439d"
+    },
+    {
+      "path": "research/model_architecture.md",
+      "sha256": "8a2716b093b809cc7e740b1bb395e03ffdb6c0cdabc94dbbe082c7395c78f90f"
+    },
+    {
+      "path": "research/target_selection.md",
+      "sha256": "bce0ac3c37660c516e4a93dd7c719b89a90369df074937ef11674731310ea18a"
+    },
+    {
+      "path": "src/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "submission/manifest_template.csv",
+      "sha256": "609c8876ea9eb01386eba0fa4cd1be7a3b3524369c273bbcd49de4c49a294437"
+    },
+    {
+      "path": "tests/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/Locked_Changed_Input_Record.md",
+      "sha256": "44b6376b6a0c610788620574de4a0f23f48dd5796b2358714acacc0e66ef8194"
+    },
+    {
+      "path": "validation/ai_use_record.csv",
+      "sha256": "719a89a10ac4d884790089043c3fb7f58b9a87ff19821a0a0690575d26586c9d"
+    },
+    {
+      "path": "validation/logs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/logs/abg_broken_cash.txt",
+      "sha256": "854af6d963480e15ab3e4be179fb30e7bf093c9ef241f54d8641e1cc0d2e9964"
+    },
+    {
+      "path": "validation/logs/abg_known_answer.txt",
+      "sha256": "89339923d3d21a5b4beba9f6c1db750f33bfecee904a4b51a3de929190b30177"
+    },
+    {
+      "path": "validation/logs/earlier_fcff.txt",
+      "sha256": "9d553ec4298ce859863c843df17e39e5d279dccd439b8ed1de158d5db38a9cfb"
+    },
+    {
+      "path": "validation/logs/lab10_tests.txt",
+      "sha256": "daf73c61b00324305025274e439473372243f0bf1a3267fba1f7967636ace409"
+    },
+    {
+      "path": "validation/logs/lab11_tests.txt",
+      "sha256": "123a7ddf205ee8a53c35be92fed690e6b80f0e6f1398e09e4f7cfb54d930c7b3"
+    },
+    {
+      "path": "validation/logs/legacy_audit.json",
+      "sha256": "0f5784291c0a4c4033170f5bd064e4a8efbfe1b1d161fc142655894d71f7110a"
+    },
+    {
+      "path": "validation/logs/visa_broken_cash.txt",
+      "sha256": "b0236f804e9aa813b840c08640511caf901b2ff3d9e7b1904455bc8bf5e4f0c5"
+    },
+    {
+      "path": "validation/run_legacy_audit.py",
+      "sha256": "85472f51332128737b964b352e92a3d26fe737eabfd8369c299e617d81d0bc8c"
+    }
+  ]
+}

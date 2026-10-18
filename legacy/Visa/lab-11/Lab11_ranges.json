@@ -1,0 +1,73 @@
+{
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "range_label": "judgment, historical context; approved by Aidan in conversation",
+  "drivers": {
+    "gross_growth": {
+      "label": "Revenue growth before client incentives",
+      "units": "annual growth rate; displayed in percent",
+      "lower": [
+        0.13,
+        0.12,
+        0.11,
+        0.1,
+        0.09
+      ],
+      "base": [
+        0.15,
+        0.14,
+        0.13,
+        0.12,
+        0.11
+      ],
+      "higher": [
+        0.17,
+        0.16,
+        0.15,
+        0.14,
+        0.13
+      ],
+      "shift_percentage_points": 2,
+      "reason": "Pre-incentive growth calculated from filings: 10.55% FY2024, 12.20% FY2025, 15.15% nine months FY2026. A +/-2 percentage-point shift tests moderate departures from the approved path; it is not a historical confidence interval or company guidance."
+    },
+    "incentive_ratio": {
+      "label": "Client incentives / revenue before incentives",
+      "units": "share of pre-incentive revenue; displayed in percent",
+      "lower": [
+        0.275,
+        0.277,
+        0.279,
+        0.281,
+        0.283
+      ],
+      "base": [
+        0.285,
+        0.287,
+        0.289,
+        0.291,
+        0.293
+      ],
+      "higher": [
+        0.295,
+        0.297,
+        0.299,
+        0.301,
+        0.303
+      ],
+      "shift_percentage_points": 1,
+      "reason": "Historical ratios calculated from filings rose from 27.36% FY2023 to 28.25% FY2025. +/-1 percentage point tests a meaningful change in partner economics; the stress range is broader than one annual movement, not a probability interval."
+    }
+  },
+  "sources": {
+    "annual": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+    "interim": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm"
+  },
+  "engine_source": "../lab-10/Lab10_visa_proforma.py",
+  "engine_sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f",
+  "note": "Lab11_engine.py is an unchanged snapshot of the Lab 10 module; use through Lab11_sensitivity.py, which passes the frozen inputs and does not call the copied module CLI."
+}

@@ -1,0 +1,671 @@
+LAB 11 | VISA | ONE-AT-A-TIME OPERATING SENSITIVITY
+Run UTC: 2026-09-29T21:36:49.453024+00:00
+AI prediction SHA256: 8fe030e2e02342232d033b3b20afb5ae639e9075a21f5b1d158aa099c660a158
+Annual model discount anchor: 2025-09-30; not a current spot valuation.
+Years: FY2026, FY2027, FY2028, FY2029, FY2030
+
+gross_growth: annual growth rate; displayed in percent; label: judgment
+  lower: 13.0%, 12.0%, 11.0%, 10.0%, 9.0%
+  base: 15.0%, 14.0%, 13.0%, 12.0%, 11.0%
+  higher: 17.0%, 16.0%, 15.0%, 14.0%, 13.0%
+  Range reason: Pre-incentive growth calculated from filings: 10.55% FY2024, 12.20% FY2025, 15.15% nine months FY2026. A +/-2 percentage-point shift tests moderate departures from the approved path; it is not a historical confidence interval or company guidance.
+
+incentive_ratio: share of pre-incentive revenue; displayed in percent; label: judgment
+  lower: 27.5%, 27.7%, 27.9%, 28.1%, 28.3%
+  base: 28.5%, 28.7%, 28.9%, 29.1%, 29.3%
+  higher: 29.5%, 29.7%, 29.9%, 30.1%, 30.3%
+  Range reason: Historical ratios calculated from filings rose from 27.36% FY2023 to 28.25% FY2025. +/-1 percentage point tests a meaningful change in partner economics; the stress range is broader than one annual movement, not a probability interval.
+
+RESULTS: FY2030 profit/FCFE in USD millions; value in USD/share; signed deltas from base
+Run | Profit | Delta | FCFE | Delta | Value | Delta | Status
+gross_growth_lower | 42,242.58 | -4,034.26 | 32,932.90 | -3,210.41 | 251.89 | -21.87 | PASS
+gross_growth_base | 46,276.85 | +0.00 | 36,143.32 | +0.00 | 273.76 | +0.00 | PASS
+gross_growth_higher | 50,609.70 | +4,332.85 | 39,594.88 | +3,451.57 | 297.18 | +23.42 | PASS
+incentive_ratio_lower | 46,936.00 | +659.15 | 36,634.15 | +490.84 | 277.48 | +3.72 | PASS
+incentive_ratio_base | 46,276.85 | +0.00 | 36,143.32 | +0.00 | 273.76 | +0.00 | PASS
+incentive_ratio_higher | 45,617.70 | -659.15 | 35,652.48 | -490.84 | 270.05 | -3.72 | PASS
+
+SPANS (max - min among valid runs; rank only complete comparisons)
+gross_growth/operating_profit: 8,367.12; valid 3/3
+gross_growth/fcfe: 6,661.98; valid 3/3
+gross_growth/per_share: 45.29; valid 3/3
+incentive_ratio/operating_profit: 1,318.30; valid 3/3
+incentive_ratio/fcfe: 981.68; valid 3/3
+incentive_ratio/per_share: 7.43; valid 3/3
+operating_profit ranking OVER THESE RANGES: ['gross_growth', 'incentive_ratio']
+fcfe ranking OVER THESE RANGES: ['gross_growth', 'incentive_ratio']
+per_share ranking OVER THESE RANGES: ['gross_growth', 'incentive_ratio']
+
+======================================================================
+FULL STATEMENTS AND CHECKS: base_before
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: []
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22887.53 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29346.58 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=-0.00000000; cash=36585.81 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44648.47 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53554.27 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,171.0      1,255.9      1,343.2      1,416.1      1,470.5
+change_incentive_liability           1,659.8      1,780.3      1,903.9      2,007.4      2,084.4
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+
+======================================================================
+FULL STATEMENTS AND CHECKS: gross_growth_lower
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.13, 0.12, 0.11, 0.1, 0.09], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: ['assumptions.gross_growth']
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22756.05 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=28964.04 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=0.00000000; cash=35802.74 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=43285.15 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=51401.09 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       62,998.6     70,558.5     78,319.9     86,151.9     93,905.6
+incentives                          17,954.6     20,250.3     22,634.5     25,070.2     27,514.3
+revenue                             45,044.0     50,308.2     55,685.4     61,081.7     66,391.2
+personnel                            7,838.8      8,754.9      9,690.7     10,629.7     11,553.7
+marketing                            1,896.4      2,118.0      2,344.4      2,571.5      2,795.1
+network                              1,006.7      1,124.4      1,244.6      1,365.2      1,483.8
+professional                           854.7        954.6      1,056.6      1,159.0      1,259.8
+general_admin                        2,168.9      2,422.3      2,681.3      2,941.1      3,196.7
+litigation                           1,351.3      1,509.2      1,670.6      1,832.5      1,991.7
+depreciation                         1,265.0      1,385.0      1,527.3      1,686.5      1,857.7
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    28,599.2     31,977.8     35,427.2     38,867.2     42,242.6
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,543.6      6,219.4      6,909.2      7,597.2      8,272.3
+net_income                          22,174.6     24,877.4     27,636.9     30,389.0     33,089.3
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,756.0     28,964.0     35,802.7     43,285.1     51,401.1
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,735.8      5,304.1      5,887.6      6,476.3      7,059.2
+receivables                          3,520.2      3,931.6      4,351.8      4,773.5      5,188.5
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,338.4      9,404.5     10,511.8     11,643.0     12,778.1
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,637.6      5,114.0      5,647.1      6,220.7      6,819.4
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,520.0    116,188.3    125,628.1    135,796.7    146,634.3
+payables                               625.0        698.0        772.6        847.5        921.2
+settlement_payable                   5,161.8      5,781.3      6,417.2      7,058.9      7,694.2
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,097.9      2,343.1      2,593.5      2,844.9      3,092.2
+incentive_liability                 11,819.7     13,330.9     14,900.4     16,503.9     18,112.9
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,067.4     66,516.3     69,046.8     71,618.2     74,183.5
+equity                              43,452.6     49,672.0     56,581.2     64,178.5     72,450.8
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,023.4      1,066.1      1,107.2      1,131.2      1,135.1
+change_incentive_liability           1,450.7      1,511.3      1,569.5      1,603.5      1,609.0
+incentive_cash_paid                 17,527.3     19,805.2     22,172.2     24,597.9     27,040.4
+change_wc_assets                     1,962.4      2,045.8      2,110.9      2,141.7      2,132.9
+change_wc_liabilities                2,349.4      2,448.9      2,530.5      2,571.4      2,565.3
+cfo                                 23,889.6     26,727.5     29,626.8     32,534.2     35,389.4
+capex                                1,666.6      1,861.4      2,060.4      2,260.0      2,456.5
+cfi                                 -1,666.6     -1,861.4     -2,060.4     -2,260.0     -2,456.5
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,223.0     24,866.1     27,566.4     30,274.1     32,932.9
+dividends                            5,543.6      6,219.4      6,909.2      7,597.2      8,272.3
+buybacks                            11,087.3     12,438.7     13,818.5     15,194.5     16,544.6
+cff                                -16,630.9    -18,658.1    -20,727.7    -22,791.7    -24,817.0
+opening_cash                        17,164.0     22,756.0     28,964.0     35,802.7     43,285.1
+change_cash                          5,592.0      6,208.0      6,838.7      7,482.4      8,115.9
+cash                                22,756.0     28,964.0     35,802.7     43,285.1     51,401.1
+
+======================================================================
+FULL STATEMENTS AND CHECKS: gross_growth_base
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: []
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22887.53 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29346.58 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=-0.00000000; cash=36585.81 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44648.47 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53554.27 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,171.0      1,255.9      1,343.2      1,416.1      1,470.5
+change_incentive_liability           1,659.8      1,780.3      1,903.9      2,007.4      2,084.4
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+
+======================================================================
+FULL STATEMENTS AND CHECKS: gross_growth_higher
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.17, 0.16, 0.15, 0.14, 0.13], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: ['assumptions.gross_growth']
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=23019.02 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29734.39 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=0.00000000; cash=37390.26 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=46067.57 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=55825.23 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       65,228.7     75,665.3     87,015.0     99,197.2    112,092.8
+incentives                          18,590.2     21,715.9     25,147.3     28,866.4     32,843.2
+revenue                             46,638.5     53,949.3     61,867.7     70,330.8     79,249.6
+personnel                            8,116.3      9,388.5     10,766.5     12,239.3     13,791.4
+marketing                            1,963.5      2,271.3      2,604.6      2,960.9      3,336.4
+network                              1,042.4      1,205.8      1,382.7      1,571.9      1,771.2
+professional                           885.0      1,023.7      1,173.9      1,334.5      1,503.8
+general_admin                        2,245.6      2,597.7      2,978.9      3,386.4      3,815.9
+litigation                           1,399.2      1,618.5      1,856.0      2,109.9      2,377.5
+depreciation                         1,265.0      1,402.6      1,579.8      1,791.7      2,033.7
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,658.6     34,379.3     39,482.1     44,907.1     50,609.7
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,755.5      6,699.7      7,720.2      8,805.2      9,945.7
+net_income                          23,022.1     26,798.7     30,880.9     35,220.9     39,783.0
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                23,019.0     29,734.4     37,390.3     46,067.6     55,825.2
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,903.5      5,688.0      6,541.2      7,457.0      8,426.4
+receivables                          3,644.8      4,216.1      4,835.0      5,496.4      6,193.4
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,633.6     10,085.2     11,678.8     13,406.0     15,252.9
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,696.6      5,290.1      5,999.4      6,810.0      7,708.5
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             108,429.4    118,483.9    129,871.6    142,634.9    156,794.3
+payables                               647.1        748.5        858.4        975.8      1,099.6
+settlement_payable                   5,344.6      6,199.7      7,129.6      8,127.8      9,184.4
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,172.2      2,512.7      2,881.5      3,275.7      3,691.0
+incentive_liability                 12,238.0     14,295.8     16,554.7     19,002.9     21,620.9
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,764.9     68,119.7     71,787.2     75,745.2     79,959.0
+equity                              43,664.5     50,364.2     58,084.4     66,889.6     76,835.4
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,318.6      1,451.6      1,593.6      1,727.2      1,846.9
+change_incentive_liability           1,869.0      2,057.7      2,258.9      2,448.3      2,618.0
+incentive_cash_paid                 18,039.7     21,109.9     24,482.0     28,145.3     32,072.1
+change_wc_assets                     2,549.8      2,807.5      3,065.6      3,304.3      3,513.3
+change_wc_liabilities                3,046.9      3,354.8      3,667.5      3,958.0      4,213.7
+cfo                                 24,847.2     28,810.5     33,105.6     37,695.2     42,527.1
+capex                                1,725.6      1,996.1      2,289.1      2,602.2      2,932.2
+cfi                                 -1,725.6     -1,996.1     -2,289.1     -2,602.2     -2,932.2
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                23,121.6     26,814.4     30,816.5     35,093.0     39,594.9
+dividends                            5,755.5      6,699.7      7,720.2      8,805.2      9,945.7
+buybacks                            11,511.0     13,399.3     15,440.4     17,610.5     19,891.5
+cff                                -17,266.6    -20,099.0    -23,160.6    -26,415.7    -29,837.2
+opening_cash                        17,164.0     23,019.0     29,734.4     37,390.3     46,067.6
+change_cash                          5,855.0      6,715.4      7,655.9      8,677.3      9,757.7
+cash                                23,019.0     29,734.4     37,390.3     46,067.6     55,825.2
+
+======================================================================
+FULL STATEMENTS AND CHECKS: incentive_ratio_lower
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.275, 0.277, 0.279, 0.281, 0.283], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: ['assumptions.incentive_ratio']
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22813.35 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29329.14 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=0.00000000; cash=36637.89 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44782.90 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53784.04 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          17,631.3     20,245.8     23,042.9     25,993.1     29,057.7
+revenue                             46,482.4     52,843.8     59,548.3     66,509.0     73,619.7
+personnel                            8,089.1      9,196.1     10,362.9     11,574.2     12,811.7
+marketing                            1,956.9      2,224.7      2,507.0      2,800.0      3,099.4
+network                              1,038.9      1,181.1      1,330.9      1,486.5      1,645.4
+professional                           882.0      1,002.7      1,129.9      1,262.0      1,396.9
+general_admin                        2,238.1      2,544.4      2,867.2      3,202.4      3,544.8
+litigation                           1,394.5      1,585.3      1,786.4      1,995.3      2,208.6
+depreciation                         1,265.0      1,400.9      1,566.4      1,756.6      1,966.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,554.9     33,646.5     37,954.4     42,403.0     46,936.0
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,734.8      6,553.1      7,414.7      8,304.4      9,211.0
+net_income                          22,939.1     26,212.4     29,658.8     33,217.6     36,844.0
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,813.3     29,329.1     36,637.9     44,782.9     53,784.0
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,632.6      4,129.7      4,653.7      5,197.7      5,753.4
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,188.2      9,402.5     10,701.5     12,071.6     13,494.8
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,690.8      5,245.2      5,882.0      6,586.3      7,343.3
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,676.6    117,070.9    127,510.8    138,990.1    151,482.1
+payables                               644.9        733.2        826.2        922.8      1,021.5
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,164.9      2,461.2      2,773.5      3,097.7      3,428.8
+incentive_liability                 11,606.8     13,328.0     15,169.3     17,111.5     19,128.9
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,032.8     66,874.0     69,899.2     73,074.2     76,355.2
+equity                              43,643.8     50,196.9     57,611.6     65,916.0     75,127.0
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets                873.2      1,214.2      1,299.0      1,370.1      1,423.2
+change_incentive_liability           1,237.8      1,721.2      1,841.4      1,942.1      2,017.4
+incentive_cash_paid                 17,266.7     19,738.9     22,500.6     25,421.1     28,463.5
+change_wc_assets                     2,008.5      2,386.1      2,537.3      2,659.1      2,743.8
+change_wc_liabilities                2,314.8      2,841.2      3,025.2      3,175.0      3,281.0
+cfo                                 24,573.5     28,130.3     31,756.1     35,519.0     39,358.1
+capex                                1,719.8      1,955.2      2,203.3      2,460.8      2,723.9
+cfi                                 -1,719.8     -1,955.2     -2,203.3     -2,460.8     -2,723.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,853.7     26,175.1     29,552.8     33,058.2     36,634.2
+dividends                            5,734.8      6,553.1      7,414.7      8,304.4      9,211.0
+buybacks                            11,469.6     13,106.2     14,829.4     16,608.8     18,422.0
+cff                                -17,204.3    -19,659.3    -22,244.1    -24,913.2    -27,633.0
+opening_cash                        17,164.0     22,813.3     29,329.1     36,637.9     44,782.9
+change_cash                          5,649.3      6,515.8      7,308.7      8,145.0      9,001.1
+cash                                22,813.3     29,329.1     36,637.9     44,782.9     53,784.0
+
+======================================================================
+FULL STATEMENTS AND CHECKS: incentive_ratio_base
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: []
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22887.53 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29346.58 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=-0.00000000; cash=36585.81 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44648.47 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53554.27 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,171.0      1,255.9      1,343.2      1,416.1      1,470.5
+change_incentive_liability           1,659.8      1,780.3      1,903.9      2,007.4      2,084.4
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+
+======================================================================
+FULL STATEMENTS AND CHECKS: incentive_ratio_higher
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.295, 0.297, 0.299, 0.301, 0.303], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: ['assumptions.incentive_ratio']
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22961.72 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29364.01 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=0.00000000; cash=36533.72 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44514.05 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53324.50 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,913.5     21,707.6     24,694.8     27,843.1     31,111.2
+revenue                             45,200.1     51,382.0     57,896.4     64,659.0     71,566.1
+personnel                            7,866.0      8,941.7     10,075.4     11,252.3     12,454.3
+marketing                            1,902.9      2,163.2      2,437.4      2,722.1      3,012.9
+network                              1,010.2      1,148.4      1,294.0      1,445.1      1,599.5
+professional                           857.7        975.0      1,098.6      1,226.9      1,358.0
+general_admin                        2,176.4      2,474.0      2,787.7      3,113.3      3,445.9
+litigation                           1,356.0      1,541.5      1,736.9      1,939.8      2,147.0
+depreciation                         1,265.0      1,386.7      1,540.3      1,720.1      1,920.8
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    28,702.9     32,689.5     36,883.1     41,210.4     45,617.7
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,564.4      6,361.7      7,200.4      8,065.9      8,947.3
+net_income                          22,257.5     25,446.8     28,801.7     32,263.5     35,789.4
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,961.7     29,364.0     36,533.7     44,514.0     53,324.5
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,532.4      4,015.5      4,524.6      5,053.1      5,592.9
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,783.7     10,081.3     11,468.6     12,930.8     14,448.5
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,643.4      5,157.8      5,759.6      6,432.0      7,159.1
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             108,272.8    117,583.0    127,922.3    139,281.6    151,631.6
+payables                               627.2        712.9        803.3        897.1        993.0
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,105.2      2,393.1      2,696.5      3,011.5      3,333.2
+incentive_liability                 12,450.9     14,290.3     16,256.8     18,329.3     20,480.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,799.5     67,748.0     70,886.8     74,180.2     77,582.9
+equity                              43,473.4     49,835.1     57,035.5     65,101.4     74,048.7
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,468.7      1,297.6      1,387.3      1,462.2      1,517.8
+change_incentive_liability           2,081.9      1,839.4      1,966.5      2,072.6      2,151.4
+incentive_cash_paid                 18,300.3     21,165.8     24,115.6     27,232.7     30,477.6
+change_wc_assets                     2,503.8      2,455.5      2,610.7      2,735.7      2,822.5
+change_wc_liabilities                3,081.5      2,948.5      3,138.8      3,293.5      3,402.7
+cfo                                 24,163.3     27,388.5     30,913.1     34,570.3     38,300.4
+capex                                1,672.4      1,901.1      2,142.2      2,392.4      2,647.9
+cfi                                 -1,672.4     -1,901.1     -2,142.2     -2,392.4     -2,647.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,490.9     25,487.4     28,771.0     32,178.0     35,652.5
+dividends                            5,564.4      6,361.7      7,200.4      8,065.9      8,947.3
+buybacks                            11,128.8     12,723.4     14,400.8     16,131.8     17,894.7
+cff                                -16,693.2    -19,085.1    -21,601.2    -24,197.6    -26,842.0
+opening_cash                        17,164.0     22,961.7     29,364.0     36,533.7     44,514.0
+change_cash                          5,797.7      6,402.3      7,169.7      7,980.3      8,810.4
+cash                                22,961.7     29,364.0     36,533.7     44,514.0     53,324.5
+
+======================================================================
+FULL STATEMENTS AND CHECKS: base_restored
+Actual independent assumptions: {"buyback_payout": 0.5, "capex_ratio": 0.037, "cost_of_equity": 0.09, "debt_maturities": [5587, 2750, 1470, 1176, 1500], "debt_rate": 0.035, "dividend_payout": 0.25, "expense_ratios": {"general_admin": 0.04815, "litigation": 0.03, "marketing": 0.0421, "network": 0.02235, "personnel": 0.174025, "professional": 0.018975}, "gross_growth": [0.15, 0.14, 0.13, 0.12, 0.11], "incentive_ratio": [0.285, 0.287, 0.289, 0.291, 0.293], "indefinite_intangibles": 27415, "intangible_amortization": [63, 62, 43, 29, 10], "minimum_cash": 5000, "ppe_depreciation_rate": 0.2986401673640167, "refinance_fraction": 1, "revolver_limits": [7000, 7000, 0, 0, 0], "revolver_rate": 0.06, "shares": 1930, "tax_rate": 0.2, "terminal_growth": 0.03}
+Changed independent paths: []
+FY2026: BS gap=0.00000000; cash gap=0.00000000; cash=22887.53 >= 5000.00; revolver=0.00 <= 7000.00
+FY2027: BS gap=0.00000000; cash gap=0.00000000; cash=29346.58 >= 5000.00; revolver=0.00 <= 7000.00
+FY2028: BS gap=0.00000000; cash gap=-0.00000000; cash=36585.81 >= 5000.00; revolver=0.00 <= 0.00
+FY2029: BS gap=0.00000000; cash gap=0.00000000; cash=44648.47 >= 5000.00; revolver=0.00 <= 0.00
+FY2030: BS gap=0.00000000; cash gap=0.00000000; cash=53554.27 >= 5000.00; revolver=0.00 <= 0.00
+Complete accounting/financing gate: PASS
+
+INCOME STATEMENT
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+gross_revenue                       64,113.6     73,089.6     82,591.2     92,502.1    102,677.4
+incentives                          18,272.4     20,976.7     23,868.9     26,918.1     30,084.5
+revenue                             45,841.3     52,112.9     58,722.3     65,584.0     72,592.9
+personnel                            7,977.5      9,068.9     10,219.2     11,413.3     12,633.0
+marketing                            1,929.9      2,194.0      2,472.2      2,761.1      3,056.2
+network                              1,024.6      1,164.7      1,312.4      1,465.8      1,622.5
+professional                           869.8        988.8      1,114.3      1,244.5      1,377.5
+general_admin                        2,207.3      2,509.2      2,827.5      3,157.9      3,495.3
+litigation                           1,375.2      1,563.4      1,761.7      1,967.5      2,177.8
+depreciation                         1,265.0      1,393.8      1,553.4      1,738.3      1,943.9
+amortization                            63.0         62.0         43.0         29.0         10.0
+operating_income                    29,128.9     33,168.0     37,418.8     41,806.7     46,276.8
+interest                               881.0        881.0        881.0        881.0        881.0
+tax                                  5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+net_income                          22,598.3     25,829.6     29,230.2     32,740.6     36,316.7
+
+BALANCE SHEET
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+escrow                               2,990.0      2,990.0      2,990.0      2,990.0      2,990.0
+securities                           2,832.0      2,832.0      2,832.0      2,832.0      2,832.0
+settlement_receivable                4,819.6      5,494.4      6,208.7      6,953.7      7,718.6
+receivables                          3,582.5      4,072.6      4,589.2      5,125.4      5,673.1
+collateral_asset                     3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+incentive_assets                     8,486.0      9,741.9     11,085.1     12,501.2     13,971.7
+prepaid                              2,679.0      2,679.0      2,679.0      2,679.0      2,679.0
+ppe                                  4,667.1      5,201.5      5,820.8      6,509.1      7,251.2
+goodwill                            19,879.0     19,879.0     19,879.0     19,879.0     19,879.0
+intangibles                         27,583.0     27,521.0     27,478.0     27,449.0     27,439.0
+other_assets                         3,944.0      3,944.0      3,944.0      3,944.0      3,944.0
+assets                             107,974.7    117,327.0    127,716.5    139,135.9    151,556.9
+payables                               636.0        723.1        814.8        910.0      1,007.2
+settlement_payable                   5,253.2      5,988.6      6,767.2      7,579.2      8,412.9
+collateral_liability                 3,625.0      3,625.0      3,625.0      3,625.0      3,625.0
+compensation                         2,135.1      2,427.2      2,735.0      3,054.6      3,381.0
+incentive_liability                 12,028.8     13,809.1     15,713.0     17,720.4     19,804.8
+accrued_liabilities                  5,466.0      5,466.0      5,466.0      5,466.0      5,466.0
+debt                                25,171.0     25,171.0     25,171.0     25,171.0     25,171.0
+litigation_liability                 3,033.0      3,033.0      3,033.0      3,033.0      3,033.0
+deferred_tax                         5,549.0      5,549.0      5,549.0      5,549.0      5,549.0
+other_liabilities                    1,519.0      1,519.0      1,519.0      1,519.0      1,519.0
+revolver                                 0.0          0.0          0.0          0.0          0.0
+liabilities                         64,416.2     67,311.0     70,393.0     73,627.2     76,969.0
+equity                              43,558.6     50,016.0     57,323.5     65,508.7     74,587.9
+
+CASH FLOWS AND INCENTIVE TIMING
+USD millions                         FY2026E      FY2027E      FY2028E      FY2029E      FY2030E
+change_incentive_assets              1,171.0      1,255.9      1,343.2      1,416.1      1,470.5
+change_incentive_liability           1,659.8      1,780.3      1,903.9      2,007.4      2,084.4
+incentive_cash_paid                 17,783.5     20,452.4     23,308.1     26,326.9     29,470.5
+change_wc_assets                     2,256.1      2,420.8      2,574.0      2,697.4      2,783.2
+change_wc_liabilities                2,698.2      2,894.8      3,082.0      3,234.2      3,341.8
+cfo                                 24,368.4     27,759.4     31,334.6     35,044.7     38,829.3
+capex                                1,696.1      1,928.2      2,172.7      2,426.6      2,685.9
+cfi                                 -1,696.1     -1,928.2     -2,172.7     -2,426.6     -2,685.9
+debt_issued                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+debt_repaid                          5,587.0      2,750.0      1,470.0      1,176.0      1,500.0
+change_revolver                          0.0          0.0          0.0          0.0          0.0
+fcfe                                22,672.3     25,831.3     29,161.9     32,618.1     36,143.3
+dividends                            5,649.6      6,457.4      7,307.6      8,185.1      9,079.2
+buybacks                            11,299.2     12,914.8     14,615.1     16,370.3     18,158.3
+cff                                -16,948.7    -19,372.2    -21,922.7    -24,555.4    -27,237.5
+opening_cash                        17,164.0     22,887.5     29,346.6     36,585.8     44,648.5
+change_cash                          5,723.5      6,459.0      7,239.2      8,062.7      8,905.8
+cash                                22,887.5     29,346.6     36,585.8     44,648.5     53,554.3
+
+RESTORED BASE PASS: max difference 0.0; tolerance 1e-06

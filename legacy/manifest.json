@@ -1,0 +1,275 @@
+{
+  "snapshot_date": "2026-10-06",
+  "files": [
+    {
+      "source": "Visa/README.md",
+      "snapshot": "legacy/Visa/README.md",
+      "sha256": "575fcf4847295c249d6d98747b253e06eeaeea5c29d2c74d541500770ed74e37",
+      "bytes": 4860
+    },
+    {
+      "source": "Visa/earlier-research/Visa_2026-09-10_Investment_Report.md",
+      "snapshot": "legacy/Visa/earlier-research/Visa_2026-09-10_Investment_Report.md",
+      "sha256": "bedd5c9c85199ff23d67337f5d95baceb02f087b07dd6e97e8eb30de214867d3",
+      "bytes": 7462
+    },
+    {
+      "source": "Visa/earlier-research/Visa_DCF_Methodology.md",
+      "snapshot": "legacy/Visa/earlier-research/Visa_DCF_Methodology.md",
+      "sha256": "3928ca6e578cbab463f71ce7f2afa4e2f78bd6f4733ce7ba76f1d676f54b1052",
+      "bytes": 9118
+    },
+    {
+      "source": "Visa/earlier-research/Visa_Research_Sources.md",
+      "snapshot": "legacy/Visa/earlier-research/Visa_Research_Sources.md",
+      "sha256": "b8507ff4a59f1a449497186ac4280b2d9787c0170b16cc8fde9128f283c1707d",
+      "bytes": 2052
+    },
+    {
+      "source": "Visa/earlier-research/visa_dcf.py",
+      "snapshot": "legacy/Visa/earlier-research/visa_dcf.py",
+      "sha256": "2ef1173609b673da046d5423b3dd294b4fd6dea8412b3a281c67d6753fd61189",
+      "bytes": 5282
+    },
+    {
+      "source": "Visa/earlier-research/visa_inputs.json",
+      "snapshot": "legacy/Visa/earlier-research/visa_inputs.json",
+      "sha256": "c30e20d8c83029600b0a9cef8d2d3a3841d2d7b3c882ba43aca72014313942b0",
+      "bytes": 1568
+    },
+    {
+      "source": "Visa/lab-06/Visa_Reverse_DCF.md",
+      "snapshot": "legacy/Visa/lab-06/Visa_Reverse_DCF.md",
+      "sha256": "b80c080929dbd23510ffc64fb667dfa63cacebbe182eaa509fd8afa7b81917b7",
+      "bytes": 16534
+    },
+    {
+      "source": "Visa/lab-06/dcf.py",
+      "snapshot": "legacy/Visa/lab-06/dcf.py",
+      "sha256": "84f284e5c89f80a63fcdc4180ef31bd1ec29b32d94c514cc1718adfafbf4389c",
+      "bytes": 10435
+    },
+    {
+      "source": "Visa/lab-07/lab07_asbury_pe_analysis.py",
+      "snapshot": "legacy/Visa/lab-07/lab07_asbury_pe_analysis.py",
+      "sha256": "fdef1124d039cdf9815c91ec6c745c7d7eaad37ce10bab142c38220e8f310f31",
+      "bytes": 12824
+    },
+    {
+      "source": "Visa/lab-07/lab07_comparable_company_analysis.py",
+      "snapshot": "legacy/Visa/lab-07/lab07_comparable_company_analysis.py",
+      "sha256": "253b742c95a8104a5ca689433b0d16181c2b08d9b1a111ef1618f6a908e1bbff",
+      "bytes": 2915
+    },
+    {
+      "source": "Visa/lab-07/lab07_summary.md",
+      "snapshot": "legacy/Visa/lab-07/lab07_summary.md",
+      "sha256": "97032d5d73fc45fa43c7fe39e66395d274f97b5349ca3f13f73485fd5ea2bc59",
+      "bytes": 3625
+    },
+    {
+      "source": "Visa/lab-08/lab08_visa_triangulation.md",
+      "snapshot": "legacy/Visa/lab-08/lab08_visa_triangulation.md",
+      "sha256": "7512cc7892aeb6a7a77d1c75b1ec09567d2d2e2bf6bde0af51bf38eb3ff737b3",
+      "bytes": 14536
+    },
+    {
+      "source": "Visa/lab-08/lab08_visa_triangulation.py",
+      "snapshot": "legacy/Visa/lab-08/lab08_visa_triangulation.py",
+      "sha256": "25aca0daffd481ac2879c44722806f43dee5b417fac45e0e68653febd0b97477",
+      "bytes": 3736
+    },
+    {
+      "source": "Visa/lab-09/lab09_output.txt",
+      "snapshot": "legacy/Visa/lab-09/lab09_output.txt",
+      "sha256": "135950e3f0778f5428c0de8f62af661e2608e03402cbe789977d11209409e21c",
+      "bytes": 4795
+    },
+    {
+      "source": "Visa/lab-09/lab09_summary.md",
+      "snapshot": "legacy/Visa/lab-09/lab09_summary.md",
+      "sha256": "11ad266c3e3513eae381de1ba8d6c1dc330ba533bfa9bea94da8d60bab9e79b7",
+      "bytes": 6803
+    },
+    {
+      "source": "Visa/lab-09/proforma.py",
+      "snapshot": "legacy/Visa/lab-09/proforma.py",
+      "sha256": "8e8551218f8f8e1c667bcdfefb34be48696b7507853bfc4b422264ed1e50047d",
+      "bytes": 9614
+    },
+    {
+      "source": "Visa/lab-10/Lab10_README.md",
+      "snapshot": "legacy/Visa/lab-10/Lab10_README.md",
+      "sha256": "d03b5f56e73830ccfabf38d4ea6d98d9a2946e67b07afba1a63128360191e8d5",
+      "bytes": 5338
+    },
+    {
+      "source": "Visa/lab-10/Lab10_history_and_sources.md",
+      "snapshot": "legacy/Visa/lab-10/Lab10_history_and_sources.md",
+      "sha256": "bb76ebdcb5e92dd6ccf3ef1abaf731dcda5633e8ca1bbc7b1d0d0410139c77f8",
+      "bytes": 10460
+    },
+    {
+      "source": "Visa/lab-10/Lab10_output.txt",
+      "snapshot": "legacy/Visa/lab-10/Lab10_output.txt",
+      "sha256": "2d6b8d46cda393f570befea611f360ca31a92c9de54de2e4a208e03b7d0edfa9",
+      "bytes": 15515
+    },
+    {
+      "source": "Visa/lab-10/Lab10_summary.md",
+      "snapshot": "legacy/Visa/lab-10/Lab10_summary.md",
+      "sha256": "627c6ddaa5ff94d3837502da016e9ac1c3b128ec8f2c8353d5fad5fa2c420906",
+      "bytes": 21187
+    },
+    {
+      "source": "Visa/lab-10/Lab10_test_visa_proforma.py",
+      "snapshot": "legacy/Visa/lab-10/Lab10_test_visa_proforma.py",
+      "sha256": "93a5ded0f6145334c52fb4fec53540177511539796d079c2db41ca4d8d638bd3",
+      "bytes": 3541
+    },
+    {
+      "source": "Visa/lab-10/Lab10_visa_inputs.json",
+      "snapshot": "legacy/Visa/lab-10/Lab10_visa_inputs.json",
+      "sha256": "dc158e21fd7ec98d0e3ed1f1db76fa629bebf29e0faad4eda5bde78f7f775ba4",
+      "bytes": 5220
+    },
+    {
+      "source": "Visa/lab-10/Lab10_visa_proforma.py",
+      "snapshot": "legacy/Visa/lab-10/Lab10_visa_proforma.py",
+      "sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f",
+      "bytes": 13883
+    },
+    {
+      "source": "Visa/lab-10/sources/Lab10_market_observation.json",
+      "snapshot": "legacy/Visa/lab-10/sources/Lab10_market_observation.json",
+      "sha256": "3e75f60e1750579c778a71291e4ff8ce861ad44ec994397df40005eaba6e9d7d",
+      "bytes": 464
+    },
+    {
+      "source": "Visa/lab-10/sources/Lab10_sources_README.md",
+      "snapshot": "legacy/Visa/lab-10/sources/Lab10_sources_README.md",
+      "sha256": "4e4da735b3099c09fad1e025eb89cc637ff2ed5af8b7e1e6374efee8583980f5",
+      "bytes": 4468
+    },
+    {
+      "source": "Visa/lab-11/Lab11_AI_prediction.json",
+      "snapshot": "legacy/Visa/lab-11/Lab11_AI_prediction.json",
+      "sha256": "8fe030e2e02342232d033b3b20afb5ae639e9075a21f5b1d158aa099c660a158",
+      "bytes": 1542
+    },
+    {
+      "source": "Visa/lab-11/Lab11_AI_prediction.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_AI_prediction.md",
+      "sha256": "5fca9333b923867143d6e43f76ca4ace66c5a59f8b644c5595c4bdb63b62e267",
+      "bytes": 1758
+    },
+    {
+      "source": "Visa/lab-11/Lab11_Gemini_handoff.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_Gemini_handoff.md",
+      "sha256": "c7cca2d4f27154af8b19ad2f76c4e4210ee6fad7540a4907b2133303d26d485a",
+      "bytes": 4432
+    },
+    {
+      "source": "Visa/lab-11/Lab11_base_assumptions.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_base_assumptions.md",
+      "sha256": "8a6f22602028a5c9939b3a748deee211fb59cddaba81e85b53a40e29f3a0e2d3",
+      "bytes": 9109
+    },
+    {
+      "source": "Visa/lab-11/Lab11_base_inputs.json",
+      "snapshot": "legacy/Visa/lab-11/Lab11_base_inputs.json",
+      "sha256": "dc158e21fd7ec98d0e3ed1f1db76fa629bebf29e0faad4eda5bde78f7f775ba4",
+      "bytes": 5220
+    },
+    {
+      "source": "Visa/lab-11/Lab11_base_output.txt",
+      "snapshot": "legacy/Visa/lab-11/Lab11_base_output.txt",
+      "sha256": "da98ac9ea295fad7a9eabc2d5a49a7301ceae1c38e588f9ab94b28c0a5ef6041",
+      "bytes": 8443
+    },
+    {
+      "source": "Visa/lab-11/Lab11_engine.py",
+      "snapshot": "legacy/Visa/lab-11/Lab11_engine.py",
+      "sha256": "4605a4f59daf1841e5108ce76db5865b30e6d8323b458b79ed9d23cc6342b48f",
+      "bytes": 13883
+    },
+    {
+      "source": "Visa/lab-11/Lab11_output.txt",
+      "snapshot": "legacy/Visa/lab-11/Lab11_output.txt",
+      "sha256": "951fd83598a27bc4039826816d1956ac3932bd360aeaf4452c1f1d1dc0d957ca",
+      "bytes": 62728
+    },
+    {
+      "source": "Visa/lab-11/Lab11_prediction.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_prediction.md",
+      "sha256": "552f7d7ddfdefa08afe132a25be324e55f20df5b45bf2e5a8ac140393cb0fe1d",
+      "bytes": 3069
+    },
+    {
+      "source": "Visa/lab-11/Lab11_ranges.json",
+      "snapshot": "legacy/Visa/lab-11/Lab11_ranges.json",
+      "sha256": "dbdebc989b8127c82d2568726100a2b2de5f9e64837e9f646b066bd436994c8e",
+      "bytes": 2203
+    },
+    {
+      "source": "Visa/lab-11/Lab11_results.json",
+      "snapshot": "legacy/Visa/lab-11/Lab11_results.json",
+      "sha256": "1efef41c6a3779415172b8d703399dc11d04d74f75f8fbb05bb8602dd16e6222",
+      "bytes": 168281
+    },
+    {
+      "source": "Visa/lab-11/Lab11_sensitivity.py",
+      "snapshot": "legacy/Visa/lab-11/Lab11_sensitivity.py",
+      "sha256": "22ced82f885c4a8de6a26e1711b29c246a795ce88dce5f937f3fce3bc68e5e59",
+      "bytes": 18222
+    },
+    {
+      "source": "Visa/lab-11/Lab11_start.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_start.md",
+      "sha256": "781a1b71618bb52f67626e62edf50ed7023f83861637f43302be475f56261cb6",
+      "bytes": 871
+    },
+    {
+      "source": "Visa/lab-11/Lab11_summary.md",
+      "snapshot": "legacy/Visa/lab-11/Lab11_summary.md",
+      "sha256": "4283272a6d55c794a6c5193877be1059f4a6f24b2f97b198dbce076816e3a8b1",
+      "bytes": 10896
+    },
+    {
+      "source": "Visa/lab-11/Lab11_test_sensitivity.py",
+      "snapshot": "legacy/Visa/lab-11/Lab11_test_sensitivity.py",
+      "sha256": "f8d65b3315e0ffc7f9f48dce1b3727e8abd9e8e58bbdba3e5cf0f508f7ed068d",
+      "bytes": 2878
+    },
+    {
+      "source": "Visa/lab-11/submission/Lab11_output.txt",
+      "snapshot": "legacy/Visa/lab-11/submission/Lab11_output.txt",
+      "sha256": "951fd83598a27bc4039826816d1956ac3932bd360aeaf4452c1f1d1dc0d957ca",
+      "bytes": 62728
+    },
+    {
+      "source": "Visa/lab-11/submission/Lab11_prediction.md",
+      "snapshot": "legacy/Visa/lab-11/submission/Lab11_prediction.md",
+      "sha256": "552f7d7ddfdefa08afe132a25be324e55f20df5b45bf2e5a8ac140393cb0fe1d",
+      "bytes": 3069
+    },
+    {
+      "source": "Visa/lab-11/submission/Lab11_summary.md",
+      "snapshot": "legacy/Visa/lab-11/submission/Lab11_summary.md",
+      "sha256": "4283272a6d55c794a6c5193877be1059f4a6f24b2f97b198dbce076816e3a8b1",
+      "bytes": 10896
+    },
+    {
+      "source": "Visa/lab-12/Lab12_review.md",
+      "snapshot": "legacy/Visa/lab-12/Lab12_review.md",
+      "sha256": "d673a1a6fc31199f829cb5784b8384ddc7fa62d0eb9c414384697b477fd2c7bd",
+      "bytes": 16605
+    },
+    {
+      "source": "Visa/lab-12/UPLOAD_GUIDE.md",
+      "snapshot": "legacy/Visa/lab-12/UPLOAD_GUIDE.md",
+      "sha256": "96aae6139cdc1cfbfc8a1b43f3761f96ee3b4483405f68e7fcaf64ebb4e97cd1",
+      "bytes": 1235
+    }
+  ]
+}

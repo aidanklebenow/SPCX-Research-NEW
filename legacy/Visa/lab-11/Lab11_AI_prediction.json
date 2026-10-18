@@ -1,0 +1,37 @@
+{
+  "author": "AI (Codex), at Aidan’s request; not an unaided student prediction",
+  "created_utc": "2026-09-29T21:30:03Z",
+  "status": "Recorded before new Lab 11 scenario runs; partner pre-run check not performed or verified",
+  "driver": "gross_growth",
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "units": "annual pre-incentive revenue growth, decimal fractions",
+  "old": [
+    0.15,
+    0.14,
+    0.13,
+    0.12,
+    0.11
+  ],
+  "new": [
+    0.17,
+    0.16,
+    0.15,
+    0.14,
+    0.13
+  ],
+  "shift_percentage_points": 2,
+  "predicted_percent_changes": {
+    "operating_profit": 9,
+    "fcfe": 9,
+    "per_share": 8
+  },
+  "reason": "Two extra percentage points of growth compound over five years. Relative to an annual revenue multiplier near 1.13, the annual increment is roughly 0.02/1.13, or 1.8%; compounding for five years suggests around 9% more final-year revenue. With most operating costs linked to revenue, expect operating profit and FCFE to rise roughly 9%. Value should rise somewhat less, roughly 8%, because earlier cash flows have less time to compound and opening surplus cash is unchanged. Reinvestment, taxes, fixed interest and depreciation prevent exact proportionality.",
+  "prior_exposure": "Lab 10 already showed an alternative growth path, a +1 percentage-point incentive stress case and discount/terminal sensitivities. This new +2-point growth run has not yet been executed in Lab 11.",
+  "base_input_sha256": "dc158e21fd7ec98d0e3ed1f1db76fa629bebf29e0faad4eda5bde78f7f775ba4"
+}

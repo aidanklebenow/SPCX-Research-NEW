@@ -1,0 +1,19 @@
+UTC: 2026-10-06T21:13:50.838949+00:00
+Command: ['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '/Users/aidanklebenow/Documents/Courses/AIFinance2026/AidanKlebenow/Project-1/legacy/Visa/lab-10/Lab10_test_visa_proforma.py']
+Exit: 0
+STDOUT:
+
+STDERR:
+test_balancing_two_accounts_cannot_hide_broken_cash_bridge (__main__.ModelChecks.test_balancing_two_accounts_cannot_hide_broken_cash_bridge) ... ok
+test_base_and_source_opening_balance (__main__.ModelChecks.test_base_and_source_opening_balance) ... ok
+test_cli_refusal_prints_no_value_and_changes_no_inputs (__main__.ModelChecks.test_cli_refusal_prints_no_value_and_changes_no_inputs) ... ok
+test_expired_revolver_cannot_be_carried_forward (__main__.ModelChecks.test_expired_revolver_cannot_be_carried_forward) ... ok
+test_incentive_pressure_reduces_value (__main__.ModelChecks.test_incentive_pressure_reduces_value) ... ok
+test_invalid_terminal_rate (__main__.ModelChecks.test_invalid_terminal_rate) ... ok
+test_negative_terminal_cash_flow_refuses (__main__.ModelChecks.test_negative_terminal_cash_flow_refuses) ... ok
+test_revolver_draw_repayment_and_expiry (__main__.ModelChecks.test_revolver_draw_repayment_and_expiry) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.130s
+
+OK

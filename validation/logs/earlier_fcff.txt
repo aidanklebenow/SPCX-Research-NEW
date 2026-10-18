@@ -1,0 +1,42 @@
+UTC: 2026-10-06T21:13:51.915693+00:00
+Command: ['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '/Users/aidanklebenow/Documents/Courses/AIFinance2026/AidanKlebenow/Project-1/legacy/Visa/earlier-research/visa_dcf.py']
+Exit: 0
+STDOUT:
+VISA (V): five-year FCFF DCF — research date 2026-09-10
+Comparison price: $367.39; close 2026-09-09
+Amounts in USD millions; shares in millions. Estimates are not company guidance.
+
+TTM ending June 30, 2026: {'revenue': 44488, 'ebit': 26996, 'da': 1342, 'capex': 1567, 'cfo': 22580}
+Assumed annual working-capital investment: 444.88
+Normalized starting FCFF: 20,926.92; cash added: 10,496.00
+
+Year | FCFF growth | FCFF ($M) | PV ($M)
+   1 |       12.0% | 23,438.15 | 21,502.89
+   2 |       11.0% | 26,016.35 | 21,897.44
+   3 |       10.0% | 28,617.98 | 22,098.33
+   4 |        9.0% | 31,193.60 | 22,098.33
+   5 |        8.0% | 33,689.09 | 21,895.60
+fcff6: 34,699.76
+terminal: 578,329.34
+pv_terminal: 375,874.39
+pv_explicit: 109,492.59
+enterprise_value: 485,366.98
+equity_value: 471,731.98
+
+Scenario values per share:
+bear: $162.71
+base: $250.92
+bull: $375.62
+Base value vs market: -31.7%
+20% margin-of-safety reference price: $200.74
+Market-implied constant FCFF growth: 19.3651%
+Terminal share of enterprise value: 77.4%
+
+Sensitivity: value/share; terminal growth columns 2%, 3%, 4%
+WACC 8%: $259.96 | $303.87 | $369.72
+WACC 9%: $220.70 | $250.92 | $293.24
+WACC 10%: $191.28 | $213.14 | $242.28
+
+Conclusion: WAIT under the base assumptions; review the methodology and risks.
+
+STDERR:

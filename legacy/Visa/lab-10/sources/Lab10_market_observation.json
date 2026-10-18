@@ -1,0 +1,10 @@
+{
+  "observed_on": "2026-09-24",
+  "price": 367.98,
+  "price_timestamp": "2026-09-24 16:00 EDT",
+  "price_type": "regular-session close",
+  "source": "https://stockanalysis.com/stocks/v/",
+  "comparison_shares_millions": 1930,
+  "comparison_equity_millions": 710201.4,
+  "note": "Common opening denominator for teaching comparison, not current actual market capitalization. Primary Visa quote page opened with prior-day 361.52 close; not used as current price."
+}
