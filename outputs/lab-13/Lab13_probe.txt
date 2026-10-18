@@ -1,0 +1,10 @@
+Reserve minimum: 3.0%
+
+Candidate A negative-weight probe
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): -2.0% FAIL
+Reserve >= 3.0%: 10.0% pass
+Redeemable in 5 days >= 90%: 100.0% pass
+Largest single company <= 8%: 0.0% pass
+Calendar-year loss: requires CIO clarification
+fails 1 rule(s)

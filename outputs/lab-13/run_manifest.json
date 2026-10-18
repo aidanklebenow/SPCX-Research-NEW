@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-18T20:31:30.346017+00:00",
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "technical_validation_passed": true,
+  "legacy_files_checked": 45,
+  "legacy_hash_mismatches": [],
+  "runs": {
+    "legacy_tests": {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "validation/run_legacy_audit.py"
+      ],
+      "exit_code": 0
+    },
+    "lab13_tests": {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    "Lab13_output": {
+      "command": [
+        "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+        "src/mandate.py"
+      ],
+      "exit_code": 0
+    }
+  },
+  "submission_ready": false,
+  "remaining": [
+    "Final student review and GitHub links submitted through Brightspace"
+  ],
+  "scope": "Lab 13 portfolio mandate; no integrated Visa FCFF/WACC validation claimed",
+  "sha256": {
+    "src/mandate.py": "f5e70e9f5e8a3852976c726aedbcb67e8e912483d52cfe8be64e829178905b81",
+    "tests/test_mandate.py": "cf8d6a403c5ae0ebb87ddba8329080d8bf8146b9f58e2c2806ecab96835e6fa4",
+    "research/course-requirements/lab-13-portfolio-mandate.md": "09124f509fab4bc2444b24f0a286f61b693349f8175388e16fcdaf897d1a32bb",
+    "outputs/lab-13/Lab13_output.txt": "0e99589fe93d758b0d78401422a7e05a64724134062017b849fd45fb2a5448c8",
+    "outputs/lab-13/Lab13_probe.txt": "ec382bd5a8dc525c0de7a0e67ed34fb59eb93afc0d1a3aed7610ca2512450505",
+    "outputs/lab-13/lab13_tests.txt": "9323da1c9102006bbd48cddb38983a6d787f09448432b3b2d4a16f5484557113",
+    "outputs/lab-13/legacy_tests.txt": "69ff01495df5827a04818ba7563f43b11829f4c8322f5a3011063daacb349ac8",
+    "submission/lab-13/Lab13_summary.md": "c8807400bd37fcc122b2451d246ff75c700879fea0e52921ddf31369651e80dd"
+  }
+}
