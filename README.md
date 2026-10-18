@@ -28,6 +28,8 @@ python3 lab-13/mandate.py
 
 ## Project 1
 
+Start with the [Project 1 work guide](Project-1/START_HERE.md).
+
 [Project-1/](Project-1/) contains the preserved project workspace, research,
 inputs, checkpoints, validation evidence, and legacy snapshots. Existing file
 contents have been preserved. Historical relative links and automation paths
