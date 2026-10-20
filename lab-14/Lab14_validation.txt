@@ -1,0 +1,140 @@
+$ python3 portfolio.py
+Lab 14 — course training inputs
+Objective: 6.50%
+
+Benchmark
+  Treasury bills: 0.0%
+  Treasury 10-year note: 0.0%
+  Investment-grade bond fund: 40.0%
+  Global equity index fund: 60.0%
+  Expected return: 6.80%
+  Volatility: 10.46%
+  Reserve-eligible: 0.0%
+  Meets objective: yes
+
+Equal weight
+  Treasury bills: 25.0%
+  Treasury 10-year note: 25.0%
+  Investment-grade bond fund: 25.0%
+  Global equity index fund: 25.0%
+  Expected return: 5.20%
+  Volatility: 5.21%
+  Reserve-eligible: 50.0%
+  Meets objective: no
+
+Inverse volatility
+  Treasury bills: 84.3%
+  Treasury 10-year note: 6.0%
+  Investment-grade bond fund: 7.0%
+  Global equity index fund: 2.6%
+  Expected return: 3.77%
+  Volatility: 1.05%
+  Reserve-eligible: 90.3%
+  Meets objective: no
+
+
+$ python3 mandate.py
+Reserve minimum: 3.0%
+
+Candidate A
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): 0.0% pass
+Reserve >= 3.0%: 14.0% pass
+Redeemable in 5 days >= 90%: 100.0% pass
+Largest single company <= 8%: 0.0% pass
+Calendar-year loss: requires CIO clarification
+passes every checkable rule
+
+Candidate B
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): 0.0% pass
+Reserve >= 3.0%: 1.0% FAIL
+Redeemable in 5 days >= 90%: 85.0% FAIL
+Largest single company <= 8%: 9.0% FAIL
+Calendar-year loss: requires CIO clarification
+fails 3 rule(s)
+
+Candidate C
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): 0.0% pass
+Reserve >= 3.0%: 2.0% FAIL
+Redeemable in 5 days >= 90%: 100.0% pass
+Largest single company <= 8%: 8.0% pass
+Calendar-year loss: requires CIO clarification
+fails 1 rule(s)
+
+Candidate D
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): 0.0% pass
+Reserve >= 3.0%: 100.0% pass
+Redeemable in 5 days >= 90%: 100.0% pass
+Largest single company <= 8%: 0.0% pass
+Calendar-year loss: requires CIO clarification
+passes every checkable rule
+
+Candidate E
+Weights sum to 100: 100.0% pass
+Long-only (lowest weight): 0.0% pass
+Reserve >= 3.0%: 0.0% FAIL
+Redeemable in 5 days >= 90%: 100.0% pass
+Largest single company <= 8%: 0.0% pass
+Calendar-year loss: requires CIO clarification
+fails 1 rule(s)
+
+
+Automated Lab 14 tests
+test_benchmark_mandate_failure (test_portfolio.PortfolioTests.test_benchmark_mandate_failure) ... ok
+test_changed_correlation (test_portfolio.PortfolioTests.test_changed_correlation) ... ok
+test_known_answers (test_portfolio.PortfolioTests.test_known_answers) ... ok
+test_rejects_bad_correlations (test_portfolio.PortfolioTests.test_rejects_bad_correlations) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK
+
+
+Both IG/equity correlations set to 0.50
+Lab 14 — course training inputs
+Objective: 6.50%
+
+Benchmark
+  Treasury bills: 0.0%
+  Treasury 10-year note: 0.0%
+  Investment-grade bond fund: 40.0%
+  Global equity index fund: 60.0%
+  Expected return: 6.80%
+  Volatility: 11.00%
+  Reserve-eligible: 0.0%
+  Meets objective: yes
+
+Equal weight
+  Treasury bills: 25.0%
+  Treasury 10-year note: 25.0%
+  Investment-grade bond fund: 25.0%
+  Global equity index fund: 25.0%
+  Expected return: 5.20%
+  Volatility: 5.49%
+  Reserve-eligible: 50.0%
+  Meets objective: no
+
+Inverse volatility
+  Treasury bills: 84.3%
+  Treasury 10-year note: 6.0%
+  Investment-grade bond fund: 7.0%
+  Global equity index fund: 2.6%
+  Expected return: 3.77%
+  Volatility: 1.09%
+  Reserve-eligible: 90.3%
+  Meets objective: no
+
+
+Invalid correlation 1.3: correctly refused (nonzero exit)
+Input error: Correlation [2][3] must be between -1 and 1.
+
+
+Asymmetric correlation: correctly refused (nonzero exit)
+Input error: Correlation table must be symmetric; edit both cells.
+
+
+Original inputs restored and rerun successfully: benchmark volatility 10.46%.
