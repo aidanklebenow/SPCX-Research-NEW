@@ -1,0 +1,97 @@
+<html><head><meta charset="utf-8"><title>Visa executed valuation</title><style>body{max-width:1100px;margin:36px auto;font:15px/1.5 system-ui;color:#16283b;padding:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}</style></head><body><pre># Visa | Conditional investment assessment
+
+As of 2026-10-19; information cutoff 2026-10-19; reference price $402.61 from 2026-10-16. USD millions except per-share amounts. AI-assisted work for Aidan Klebenow, FIN 43900. Proposed assumptions and action require Aidan review; no trade instruction.
+
+**Proposed action: DO NOT INITIATE at reference price.** Causal low/base/high values are $179 / $267 / $375. The $179-$375 envelope is a scenario range, not a confidence interval. Combined downside is $129. The model&#x27;s price-and-downside rule allows conditional initiation at or below $227, subject to source refresh and operating confirmation. Do not mechanically average the DCF with peer outputs.
+
+## Decision context and timing
+
+Intended user: a buy-side portfolio manager with no Visa position. Proposed investment horizon: 3-5 years. Valuation date October 19, 2026. Reported June 30, 2026 balances and TTM flows establish history. A separately shown 111-day estimated stub rolls the balance sheet to October 19; five forward twelve-month periods end October 19, 2027-2031. These are **not Visa fiscal years**. The stub is not an observed result and its cash flows are not discounted as future cash. Annual forward cash flows use end-period discounting. FY2026 audited results are not assumed available.
+
+Shares: 1,880M as-converted economic equivalents at June 30, plus 0.5% incremental dilution reserve = 1,889.4M. Includes participating preferred in converted claims; no second preferred deduction. This is a dated proxy, not verified October outstanding shares. No forecast share-repurchase uplift is taken.
+
+## Forecast and financial articulation
+
+Revenue is separated into service, processing, international and other. Service growth combines lagged-volume and effective-yield assumptions; processing combines transaction and yield assumptions; international combines cross-border and yield/mix assumptions. This is an annual reduced-form model, not a quarterly transaction-level forecast. Value-added services overlap the reported categories and are **not added again**. Client incentives reduce gross revenue; asset/liability changes reconcile expense to cash paid.
+
+| Forward 12M end | Net revenue | EBIT | Net income | CFO | Capex | FCFF | BS gap |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2027-10-19 | 51,881 | 33,147 | 25,850 | 28,105 | 2,075 | 26,698 | 0.000000 |
+| 2028-10-19 | 57,585 | 36,753 | 28,734 | 31,193 | 2,303 | 29,558 | 0.000000 |
+| 2029-10-19 | 62,985 | 40,147 | 31,450 | 34,078 | 2,519 | 32,226 | 0.000000 |
+| 2030-10-19 | 68,219 | 43,428 | 34,074 | 36,894 | 2,729 | 34,833 | 0.000000 |
+| 2031-10-19 | 73,152 | 46,507 | 36,537 | 39,529 | 2,926 | 37,271 | -0.000000 |
+
+FCFF = EBIT - unlevered operating tax + D&amp;A - capex - change in operating NWC. It is calculated from these statements, not independently grown. Cash/debt are excluded from operating NWC; settlement and client-incentive assets/liabilities are handled symmetrically. Restricted customer cash is not discretionary liquidity. SBC stays an expense and future equivalent compensation is paid in cash; it is not added back while ignoring dilution. NI taxes apply only to positive pretax income, with no tax-loss carryforward assumed. Forecast operating noninterest cash income is zero.
+
+## WACC and terminal economics
+
+Risk-free 5.09% (FRED 10Y October 16); ERP 4.20% (Damodaran October 1 implied adjusted-payout estimate); selected levered beta 0.90; cost of equity 8.87%. Beta is analyst judgment informed by a provider&#x27;s 0.76 five-year monthly observation, not a reproduced regression. Marginal debt cost 5.84% = Treasury + a judgmental 75bp spread; no executable bond quote is claimed. Tax shield 20%; market equity weight 96.93%; debt weight 3.07%; **WACC 8.74%**. Debt principal is a market-value proxy; equity uses dated market capitalization of economic claims, never book equity.
+
+Terminal growth 3.0%; incremental ROIC 30%; reinvestment rate g/ROIC = 10%. Terminal NOPAT 38,322, reinvestment 3,832, FCFF 34,489. Positive reinvestment replaces extrapolation of favorable negative working capital. Terminal PV is **76.1% of EV**. The final explicit growth-to-terminal transition is abrupt; margin and ROIC persistence are material judgments, not management guidance.
+
+| EV-to-equity item | USD millions |
+| --- | --- |
+| PV five annual FCFF | 124,037.4 |
+| PV terminal | 395,129.3 |
+| Enterprise value | 519,166.7 |
+| Estimated opening excess cash | +9,549.3 |
+| Eligible debt securities | +1,137.0 |
+| Debt principal | -24,131.0 |
+| Net legacy litigation claim | -386.0 |
+| Economic equity | 505,336.0 |
+| Per diluted economic equivalent | $267.46 |
+
+Eligible securities are $1,137M government debt securities. $888M litigation escrow, $4,310M customer collateral and $1,211M restricted settlement cash are not added as excess cash. The $386M legacy claim equals $1,274M accrued litigation less dedicated $888M escrow, assuming that coverage is available; remaining future litigation is expensed at 2% of net revenue in base. Preferred participating claims are in the denominator. Operating leases stay expensed; lease liabilities are not added to funded debt on either network. Pensions, contingent litigation, strategic investments and other nonoperating assets are not independently fair-valued; these are bridge limitations. Do not treat a zero separate adjustment as proof that no claim exists.
+
+## Causal cases and decision reversals
+
+| Case | Value/share | WACC | Final EBIT | Final FCFF |
+| --- | --- | --- | --- | --- |
+| low | $179.08 | 9.74% | 38,482 | 30,774 |
+| base | $267.46 | 8.74% | 46,507 | 37,271 |
+| high | $374.73 | 7.99% | 51,831 | 41,604 |
+| downside | $128.79 | 10.24% | 30,569 | 24,352 |
+
+Low: activity growth -3pp, incentives +1.5pp of gross revenue, cash costs +1.5pp of net revenue, WACC +100bp, terminal g 2.5%, ROIC 25%. High: activity +2pp, incentives -0.5pp, cash costs -0.5pp, WACC -75bp, g 3.5%, ROIC 35%. Combined downside: activity -7pp, incentives +2.5pp, cash costs +2.5pp, WACC +150bp, g 2%, ROIC 20%. Each case reruns all three statements; current-date opening is fixed. These are plausible judgment stresses, not assigned probabilities. The downside can reverse an initiation at a proposed entry price into watch/defer or no initiation; it does not need to reverse an already-negative action at the reference price.
+
+| One-at-a-time driver | Low input | High input | Value span/share |
+| --- | --- | --- | --- |
+| terminal_growth | 0.02 | 0.04 | $63.32 |
+| beta | 0.75 | 1.05 | $59.11 |
+| growth_shift | -0.02 | 0.02 | $47.27 |
+| tax_rate | 0.18 | 0.24 | $20.17 |
+| terminal_roic | 0.2 | 0.4 | $17.43 |
+| cash_expense_shift | -0.01 | 0.01 | $8.63 |
+| incentive_shift | -0.01 | 0.01 | $7.65 |
+| capex_ratio | 0.03 | 0.05 | $6.61 |
+
+Ranks depend on selected ranges. Alternate-range results are in `sensitivity_alternate.csv`; growth is narrowed while incentives are widened. See EBIT and FCFF effects in both CSVs. WACC and terminal inputs affect value without changing the five-year operating profit/cash forecasts.
+
+## Market-implied expectations
+
+Holding yields, incentives, cost ratios, WACC, terminal assumptions and the current bridge fixed, the dated market reference requires a uniform **9.65pp** increase to annual service-volume, transaction, cross-border and other growth. That produces **19.5%** net-revenue CAGR and reprices to $402.61. This is one conditional solution, not a uniquely identified market belief.
+
+## Peer cross-check and disagreement
+
+Policy was saved before new project multiple retrieval; prior MA/AXP lab exposure is disclosed. MA qualifies as a fee-based global network. AXP&#x27;s lending/funding economics exclude it from operating EV comparisons. Both use trailing June 2026 financials, October 16 prices, as-converted/economic shares plus the same 0.5% dilution reserve, funded principal debt and $5B operating cash reserve, SBC-expensed GAAP EBIT + D&amp;A, and P/E based on total equity/total NI. Capital structures remain June proxies. MA GAAP restructuring/litigation remains expensed. No qualified comparable transaction was established, so transaction multiples are omitted.
+
+| Network | TTM EV/EBITDA | TTM P/E | TTM revenue | TTM NI |
+| --- | --- | --- | --- | --- |
+| V | 27.41x | 33.67x | 44,488 | 22,592 |
+| MA | 25.98x | 33.48x | 35,083 | 16,257 |
+
+Applying MA&#x27;s GAAP multiples to Visa&#x27;s matching GAAP bases yields **$381** via EV/EBITDA and **$400** via P/E. A separately labeled normalized Visa comparison yields $399 / $419; this mixes normalized target with GAAP peer and is not the primary comparison. One peer cannot establish a statistical range. Market-relative values embed MA&#x27;s own pricing and growth/risk expectations; DCF explicitly fades growth and funds terminal reinvestment. Their disagreement is evidence to investigate persistence/terminal economics, not permission to average away uncertainty.
+
+## Conditions, monitoring and limits
+
+Proposed committee ask: do not initiate at the reference price; retain Visa on a monitored watchlist and revisit only if price, operating evidence or a defensible capital-cost change supports the entry rule. Before initiation, refresh actual cash/debt/diluted economic shares; verify incentive timing, litigation coverage and forecast cost ratios. Review each earnings release: investigate two consecutive quarters below 8% processed-transaction growth, incentives above 30% of gross revenue, or normalized operating margin below 60%; rerun if the 10Y rate moves 50bp, a material legal event occurs, or a filing changes the bridge. These thresholds are analyst proposals for Aidan to adopt/revise.
+
+Model limitations: 111-day estimated opening, stale June claims, no observed October share roll-forward, no quarterly seasonality, aggregate yield/mix proxies, cash replacement of SBC, fixed goodwill/collateral/securities/deferred-tax/other-asset and liability stocks, no acquisitions/FX/impairments, flat debt/refinancing, no NOL tracking, no independently priced credit spread/beta regression, abrupt terminal transition and one-peer concentration. Forecast taxes are an economic cash-tax proxy, not a full tax-accounting schedule. Accounting articulation is necessary, not proof these economics are correct.
+
+## Evidence and reproducibility
+
+Run `python3 run.py`; tests `python3 -m unittest discover -s tests -p test_integrated.py -v`; workbench `python3 app.py`. Material source fields are in `inputs/source_register.csv`; raw transcribed facts preserve primary URLs and locators. Full SEC download was blocked; these are transcribed facts, not downloaded full filings. Independent capex/definition check: `data/raw/independent_capex_check.json`. Financial source verification by the assistant is not Aidan&#x27;s human independent verification. Audit scope, AI dispositions, cold-run evidence and missing human requirements are in `docs/validation-and-ai-use.md`.
+
+Primary sources: [Visa FY2025 10-K](https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm), [Visa June 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm), [MA FY2025 10-K](https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm), [MA June 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1141391/000114139126000083/ma-20260630.htm), [FRED DGS10](https://fred.stlouisfed.org/series/DGS10), [Damodaran ERP](https://pages.stern.nyu.edu/~adamodar/New_Home_Page/home.htm). Provider cross-checks/dated prices are in the input evidence ledgers.
+</pre></body></html>
