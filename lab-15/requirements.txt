@@ -1,0 +1,4 @@
+streamlit>=1.50,<2
+certifi>=2024.2.2
+altair>=5,<7
+pandas>=2,<4
